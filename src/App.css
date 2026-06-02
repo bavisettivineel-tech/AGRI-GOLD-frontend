@@ -1,0 +1,36 @@
+.page-content {
+  min-height: calc(100vh - 112px);
+}
+
+.site-footer {
+  background: #f8faf6;
+}
+
+.card-surface {
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+}
+
+.card-outline {
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+.glow-button {
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.glow-button:hover {
+  transform: translateY(-1px);
+}
+
+.text-shadow-soft {
+  text-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
+}
+
+@media (max-width: 768px) {
+  .page-content {
+    min-height: auto;
+  }
+}
